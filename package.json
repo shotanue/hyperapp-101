@@ -1,20 +1,21 @@
 {
-  "name": "hyperapp-101",
-  "version": "1.0.0",
-  "source": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel"
-  },
-  "author": "shotanue",
-  "license": "MIT",
-  "dependencies": {
-    "hyperapp": "1.0.0"
-  },
-  "devDependencies": {
-    "parcel": "2.12.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+	"name": "hyperapp-101",
+	"version": "1.0.0",
+	"source": "index.html",
+	"scripts": {
+		"check:apply": "biome check --apply-unsafe src",
+		"start": "parcel"
+	},
+	"author": "shotanue",
+	"license": "MIT",
+	"dependencies": {
+		"hyperapp": "1.0.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.7.3",
+		"parcel": "2.12.0"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
 }
